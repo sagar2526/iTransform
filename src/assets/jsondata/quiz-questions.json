@@ -1,0 +1,47 @@
+[
+    {
+        "ID": 1, 
+        "question": "Inventor of c++?", 
+        "option1": "Pavan.c", 
+        "option2":"James Gosling", 
+        "option3" :"Richie Richie", 
+        "option4":"Amos.Emmanual", 
+        "answer": "Richie Richie"
+      },
+      {
+        "ID": 2, 
+        "question": "Inventor of java?", 
+        "option1": "Nayan.c", 
+        "option2":"Ärmesh", 
+        "option3":"Denish Richie", 
+        "option4":"Kiran.DY", 
+        "answer": "Denish Richie"
+      },
+      {
+        "ID": 3, 
+        "question": "how is java?", 
+        "option1": "Easy", 
+        "option2":"Difficult", 
+        "option3":"moderate", 
+        "option4":"nonoe", 
+        "answer": "Easy"
+      },
+      {
+        "ID": 4, 
+        "question": "Inventor of cprogram?", 
+        "option1": "a", 
+        "option2":"b", 
+        "option3":"c", 
+        "option4":"d", 
+        "answer": "a"
+      } ,
+      {
+        "ID": 5,
+        "question": "Inventor of cprogram?", 
+        "option1": "a", 
+        "option2":"b", 
+        "option3":"c", 
+        "option4":"d", 
+        "answer": "b"
+      }
+]

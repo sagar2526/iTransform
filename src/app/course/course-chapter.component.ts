@@ -18,7 +18,9 @@ export class CourseChapterComponent implements OnInit {
         this.chapterName = new CourseChapter();
         // this.course = new Courses();
         this.courseService.findByName().subscribe((data) => {
+           
             this.chapterNames = data;
+            
             console.log(data);
             //console.log(data[0].courseChapter[0]);
         });

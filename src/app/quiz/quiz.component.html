@@ -1,0 +1,13 @@
+<div class="container quiz-box">
+    <ul class="quiz-list">
+        <li *ngFor="let c of quizes">
+            <a routerLink="/quiz">
+                {{c.question}} 
+            </a>
+        </li>
+    </ul>
+
+    <input type="button" name="next" value="next"> NEXT 
+    <input type="button" name="previous" value="previous"> PREVIOUS
+</div>
+© 2019 GitHub, Inc.

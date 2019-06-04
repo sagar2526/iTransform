@@ -9,13 +9,16 @@ import { RegistrationModule } from './registration/registration.module';
 import { LoginComponent } from './login.component';
 import { FormsModule } from '@angular/forms';
 import { CourseModule } from './course/course.module';
+import { QuizComponent } from './quiz/quiz.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    LoginComponent
+    LoginComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,
