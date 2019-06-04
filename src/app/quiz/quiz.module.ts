@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { QuizComponent } from './quiz.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { quizRoute } from './quiz.route';
+import {  QuizRoute } from './quiz.route';
 
 @NgModule({
 
@@ -11,7 +11,7 @@ import { quizRoute } from './quiz.route';
     ],
     imports : [
         BrowserModule,
-        RouterModule.forChild(quizRoute)
+        RouterModule.forChild(QuizRoute)
     ],
     exports: [
         QuizComponent

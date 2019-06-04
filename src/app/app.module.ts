@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { appRoute } from './app.route';
@@ -10,8 +9,7 @@ import { LoginComponent } from './login.component';
 import { FormsModule } from '@angular/forms';
 import { CourseModule } from './course/course.module';
 import { QuizComponent } from './quiz/quiz.component';
-
-
+import { QuizService } from './quiz/quiz.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +25,7 @@ import { QuizComponent } from './quiz/quiz.component';
     CourseModule,
     RouterModule.forRoot(appRoute)
   ],
-  providers: [],
+  providers: [QuizService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

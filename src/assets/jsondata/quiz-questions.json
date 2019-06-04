@@ -1,7 +1,7 @@
 [
     {
         "ID": 1, 
-        "question": "Inventor of c++?", 
+        "question1": "Inventor of java?", 
         "option1": "Pavan.c", 
         "option2":"James Gosling", 
         "option3" :"Richie Richie", 
@@ -10,38 +10,38 @@
       },
       {
         "ID": 2, 
-        "question": "Inventor of java?", 
-        "option1": "Nayan.c", 
-        "option2":"Ärmesh", 
-        "option3":"Denish Richie", 
-        "option4":"Kiran.DY", 
+        "question2": "Inventor of java?", 
+        "option5": "Nayan.c", 
+        "option6":"Ärmesh", 
+        "option7":"Denish Richie", 
+        "option8":"Kiran.DY", 
         "answer": "Denish Richie"
       },
       {
         "ID": 3, 
-        "question": "how is java?", 
-        "option1": "Easy", 
-        "option2":"Difficult", 
-        "option3":"moderate", 
-        "option4":"nonoe", 
+        "question3": "how is java?", 
+        "option9": "Easy", 
+        "option10":"Difficult", 
+        "option11":"moderate", 
+        "option12":"nonoe", 
         "answer": "Easy"
       },
       {
         "ID": 4, 
         "question": "Inventor of cprogram?", 
-        "option1": "a", 
-        "option2":"b", 
-        "option3":"c", 
-        "option4":"d", 
+        "option13": "a", 
+        "option14":"b", 
+        "option15":"c", 
+        "option16":"d", 
         "answer": "a"
       } ,
       {
         "ID": 5,
-        "question": "Inventor of cprogram?", 
-        "option1": "a", 
-        "option2":"b", 
-        "option3":"c", 
-        "option4":"d", 
+        "question5": "Inventor of cprogram?", 
+        "option17": "a", 
+        "option18":"b", 
+        "option19":"c", 
+        "option20":"d", 
         "answer": "b"
       }
 ]
