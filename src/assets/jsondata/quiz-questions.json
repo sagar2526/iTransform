@@ -11,19 +11,19 @@
       {
         "ID": 2, 
         "question2": "Inventor of java?", 
-        "option5": "Nayan.c", 
-        "option6":"Ärmesh", 
-        "option7":"Denish Richie", 
-        "option8":"Kiran.DY", 
+        "option1": "Nayan.c", 
+        "option2":"Ärmesh", 
+        "option3":"Denish Richie", 
+        "option4":"Kiran.DY", 
         "answer": "Denish Richie"
       },
       {
         "ID": 3, 
         "question3": "how is java?", 
-        "option9": "Easy", 
-        "option10":"Difficult", 
-        "option11":"moderate", 
-        "option12":"nonoe", 
+        "option1": "Easy", 
+        "option2":"Difficult", 
+        "option3":"moderate", 
+        "option4":"none", 
         "answer": "Easy"
       },
       {
@@ -38,10 +38,10 @@
       {
         "ID": 5,
         "question5": "Inventor of cprogram?", 
-        "option17": "a", 
-        "option18":"b", 
-        "option19":"c", 
-        "option20":"d", 
+        "option1": "a", 
+        "option2":"b", 
+        "option3":"c", 
+        "option4":"d", 
         "answer": "b"
       }
 ]

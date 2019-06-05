@@ -12,6 +12,8 @@ export class QuizComponent implements OnInit{
 
     quizes : Quiz[];
     quiz:Quiz;
+    totalAnswered: number = 0;
+    rightAnswer: number;
 
     constructor(private quizService : QuizService , private router :Router){}
     ngOnInit(): void {
@@ -20,12 +22,36 @@ export class QuizComponent implements OnInit{
 
                 this.quizes=data;
                 console.log(data);
-        });
-
-        
+        });    
     }
 
-    newChange(): void {
-        this.router.navigateByUrl('quiz')
+    submitTest(){
+
+        alert('submitted')
+            for(let i=0;i<this.quiz.question.length;i++){
+
+                let attempt=0;
+                
+                if ("selected" in this.quiz.question[i] && (this.quiz.question[i]["selected"] != null)) {
+                    this.totalAnswered++;
+                }       
+                
+                while(attempt<3)
+                {
+                if (this.quiz.question[i]["selected"] == this.quiz.question[i]["answer"] ) {
+                    this.quiz.answer=this.rightAnswer;
+                    this.rightAnswer++;
+                    attempt=3;
+                }
+                else{
+                    attempt++;
+                }
+            } 
+            }               
     }
+
+
+
+
+
 }

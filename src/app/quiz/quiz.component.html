@@ -1,19 +1,26 @@
-<div class="container quiz-box">
+<div  class="container quiz-box">
     <div class="quiz-list">
-        <div *ngFor="let c of quizes">
-            <a routerLink='/quiz'>
+        <div *ngFor="let c of quizes ; let i=index">
+            <a routerLink='/quiz/{{i}}'>
                 {{c.question1}}<br>
-                {{c.option1}}<br>
-                {{c.option2}}<br>
-                {{c.option3}}<br>
-                {{c.option4}}
+                {{c.question2}}
+                {{c.question3}}
+                {{c.question4}}
+                {{c.question5}}<br>
+              <input  type="radio" name ="option1"> 
+              <label class="form-check-label">{{c.option1}} </label><br>
+              <input type="radio" name="option2">
+              <label class="form-check-label">{{c.option2}} </label><br>
+              <input type="radio" name="option3">
+              <label class="form-check-label">{{c.option3}} </label><br>
+              <input type="radio" name="option4">
+              <label class="form-check-label">{{c.option4}} </label><br>
+               
                 </a>
             
         </div>
     </div>
-
-    <input type="submit"  name="previous" value="previous">  &nbsp;
-    <input type="submit" routerLink="" name="next" value="next"> 
-    
+    <br>
+    <input type="submit" (click)="submitTest()" name="submit" value="submit">
 </div>
-© 2019 GitHub, Inc.
+

@@ -12,4 +12,5 @@ export class QuizService{
         return this.http.get<Quiz[]>('assets/jsondata/quiz-questions.json');
     }
 
+
 }
